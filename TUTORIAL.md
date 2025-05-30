@@ -136,7 +136,7 @@ done
 
 ## Images and picture-in-picture
 
-You can display images in PNG or JPEG format by base43-encoding them.  
+You can display images in PNG or JPEG format by base64-encoding them.  
 The `base64` command is preinstalled in Termux.  
 To generate the image string you should use `img="$(base64 -w 0 <filepath>)"`.  
   
