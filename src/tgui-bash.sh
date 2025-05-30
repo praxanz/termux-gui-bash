@@ -87,7 +87,7 @@ if [ $# -ge 1 ] && [ "$1" = "-h" ]; then
       echo "3: Firefox"
       read -r resp
       if [ "$resp" == 0 ]; then
-        @TERMUX_PREFIX@/share/tgui-bash/manual.html "$docpath$docpathext"
+        @TERMUX_PREFIX@/share/tgui-bash/docviewer.sh "$docpath$docpathext"
         exit 0
       fi
       if [ "$resp" == 1 ]; then
